@@ -32,14 +32,19 @@
     <section>
       <!-- Filter Results -->
       <div class="filter-options">
+        <!-- Heading -->
         <h2>Filter Results</h2>
+        <!-- Select Neighborhood -->
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
+        <!-- Select Cuisines -->
         <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
+
       </div>
+
       <!-- Restaurants List -->
       <ul id="restaurants-list"></ul>
     </section>
