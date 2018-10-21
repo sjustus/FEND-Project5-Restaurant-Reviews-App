@@ -47,7 +47,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-
+	color: #aaa;
+	font-size: .8rem;
   letter-spacing: 0.1rem;
   padding: 2.5rem;
   text-align: center;

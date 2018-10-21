@@ -1,0 +1,27 @@
+/* ===================== Breakpoin 525px ===================*/
+@media screen and (max-width: 525px) {
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 400px;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 100%;
+  }
+  .inside #map {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #ccc;
+    height: 100%;
+    width: 100%;
+  }
+  #breadcrumb {
+    width: 100%;
+  }
+  #restaurant-container, #reviews-container {
+    max-width: 100%;
+  }
+  .inside #footer {
+    max-width: 100%;
+  }
+}
