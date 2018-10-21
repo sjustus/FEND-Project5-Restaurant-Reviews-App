@@ -216,7 +216,7 @@ nav h1 a {
 .inside header {
 	display: flex;
 	flex-flow: column nowrap;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -277,6 +277,7 @@ nav h1 a {
   text-transform: uppercase;
 	width: 90%;
 }
+
 #restaurant-container, #reviews-container {
 	display: flex;
 	flex-direction: column;
