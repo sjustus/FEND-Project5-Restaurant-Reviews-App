@@ -117,7 +117,7 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
     const time = document.createElement('td');
     time.innerHTML = operatingHours[key];
     row.appendChild(time);
-    
+
     hours.appendChild(row);
   }
 };
@@ -149,7 +149,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   const li = document.createElement('li');
-  const name = document.createElement('p');
+  const name = document.createElement('h3');
   name.innerHTML = review.name;
   li.appendChild(name);
 
