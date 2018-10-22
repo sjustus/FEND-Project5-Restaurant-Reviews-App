@@ -21,6 +21,9 @@
 <body class="inside">
   <!-- Beginning header -->
   <header>
+    <!-- Skip link -->
+    <a href="#maincontent" class="skip-link" title="Skip to Main">Skip to Main</a>
+
     <!-- Beginning nav -->
     <nav aria-labelledby="restaurantReviews">
       <h1 id="restaurantReviews"><a href="/">Restaurant Reviews</a></h1>
@@ -35,25 +38,26 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container" aria-label="map">
-      <div id="map"></div>
-    </section>
+  <section id="map-container" aria-label="map">
+    <div id="map"></div>
+  </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container" aria-labelledby="restaurant-name">
-      <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img">
-      <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
-    </section>
-    <!-- end restaurant -->
-    <!-- Beginning reviews -->
-    <section id="reviews-container" aria-labelledby="reviews-list">
-      <ul id="reviews-list"></ul>
-    </section>
+    <main id="maincontent">
+
+      <section id="restaurant-container" aria-labelledby="restaurant-name">
+        <h1 id="restaurant-name"></h1>
+        <img id="restaurant-img">
+        <p id="restaurant-cuisine"></p>
+        <p id="restaurant-address"></p>
+        <table id="restaurant-hours"></table>
+      </section>
+      <!-- end restaurant -->
+      <!-- Beginning reviews -->
+      <section id="reviews-container" aria-labelledby="reviews-list">
+        <ul id="reviews-list"></ul>
+      </section>
     <!-- End reviews -->
   </main>
   <!-- End main -->
