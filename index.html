@@ -22,7 +22,7 @@
 
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1 title="Restaurant Reviews home"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -38,10 +38,12 @@
         <!-- Heading -->
         <h2>Filter</h2>
         <!-- Select Neighborhood -->
+        <label for="neighborhoods">Select a neighborhood</label>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
         <!-- Select Cuisines -->
+        <label for="cuisines">Select a cuisine</label>
         <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
