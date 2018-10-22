@@ -60,6 +60,19 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   font-size: .8rem;
 }
 /* ====================== Navigation ====================== */
+.skip-link {
+	position: absolute;
+	top: -4rem;
+	left: 0;
+	background: #3397DB;
+	color: white;
+	padding: 8px;
+	z-index: 100;
+}
+.skip-link:focus {
+	top:0;
+	color: white;
+}
 nav {
 	display: flex;
 	flex-flow: column nowrap;

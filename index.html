@@ -20,31 +20,36 @@
 
 <body>
 
+
   <header>
+    <a href="#maincontent" class="skip-link" title="Skip to Main">Skip to Main</a>
+
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
-  <main id="maincontent">
+
     <!-- Map -->
-    <section id="map-container" aria-label="map">
-      <div id="map"></div>
-    </section>
+  <section id="map-container" aria-label="map">
+    <div id="map"></div>
+  </section>
+
+    <main id="maincontent" tabindex="-1">
     <!-- Restaurants -->
-    <section id="restaurants" aria-label="restaurants">
-      <!-- Filter Results -->
-      <div class="filter-options">
-        <!-- Heading -->
-        <h2>Filter</h2>
-        <!-- Select Neighborhood -->
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
-        </select>
-        <!-- Select Cuisines -->
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
-        </select>
+      <section id="restaurants" aria-label="restaurants">
+        <!-- Filter Results -->
+        <div class="filter-options">
+          <!-- Heading -->
+          <h2>Filter</h2>
+          <!-- Select Neighborhood -->
+          <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+            <option value="all">All Neighborhoods</option>
+          </select>
+          <!-- Select Cuisines -->
+          <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+            <option value="all">All Cuisines</option>
+          </select>
 
       </div>
 
